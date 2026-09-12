@@ -1,0 +1,23 @@
+{
+  "name": "bcio",
+  "version": "0.0.1",
+  "api": "none",
+  "description": "`remote` diretory manager for bloxd.io dir-sync",
+  "keywords": [
+    "bloxd.io"
+  ],
+  "dependencies": {
+    "@gunshi/docs": "^0.37.2",
+    "gunshi": "catalog:"
+  },
+  "packageManager": "pnpm@12.3.4",
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "vite-plus": "catalog:"
+  },
+  "files": [
+    "./dist"
+  ],
+  "bin": "./dist/index.mjs"
+}
