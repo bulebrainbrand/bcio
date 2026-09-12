@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "api": "none",
   "description": "`remote` diretory manager for bloxd.io dir-sync",
+  "repository": {
+    "url": "https://github.com/bulebrainbrand/bcio"
+  },
   "keywords": [
     "bloxd.io"
   ],
