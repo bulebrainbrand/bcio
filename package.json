@@ -1,6 +1,6 @@
 {
   "name": "@bulebrainbrand/bcio",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "api": "none",
   "description": "`remote` diretory manager for bloxd.io dir-sync",
   "repository": {
