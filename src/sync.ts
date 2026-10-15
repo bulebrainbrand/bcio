@@ -6,17 +6,6 @@ export const syncRemoteNodeModules = () => {
   const json = JSON.parse(
     fs.readFileSync("./node_modules/@bloxd/types/package.json").toString(),
   );
-  fs.writeFileSync(
-    "./node_modules/@bloxd/types/tsconfig.json",
-    JSON.stringify({
-      compilerOptions: {
-        rootDir: ".",
-        paths: {
-          "@bloxd": ["./index.d.ts"],
-        },
-      },
-    }),
-  );
   json.name = "@bloxd/types";
   fs.writeFileSync(
     "./node_modules/@bloxd/types/package.json",
