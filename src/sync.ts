@@ -12,7 +12,7 @@ export const syncRemoteNodeModules = () => {
     ".": {
       types: "./index.d.ts",
     },
-    global: {
+    "./global": {
       types: "./globals.d.ts",
     },
   };
